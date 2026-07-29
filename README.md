@@ -112,4 +112,4 @@ Slack receives AI failure report
 ```
 
 ---
-**Author:** Chirag
+**Author:** Chirag Parmar
