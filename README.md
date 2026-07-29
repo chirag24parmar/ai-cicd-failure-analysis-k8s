@@ -65,11 +65,10 @@ Slack receives AI failure report
 ## ✨ Key Features
 
 - **Dynamic Jenkins agents on Kubernetes** — a fresh build pod (Node.js, Kaniko, Trivy, kubectl, Python containers) spins up for every run.
-- **Daemonless Docker builds (Kaniko)** — safer for K8s-native CI/CD
-- **Security gate** — Trivy blocks deployment on HIGH/CRITICAL vulnerabilities
-- **AI root-cause analysis** — failed-stage logs are sent to a local Ollama model, which returns the failed stage, root cause, evidence, and next action
-- **Slack-native alerts** — every build posts success or AI-generated failure reports directly to Slack
-- **Full observability** — Prometheus scrapes Jenkins + app metrics; Grafana visualizes cluster and pod health
+- **Security gate** — Trivy blocks deployment on HIGH/CRITICAL vulnerabilities.
+- **AI root-cause analysis** — failed-stage logs are sent to a local Ollama model, which returns the failed stage, root cause, evidence, and next action.
+- **Slack-native alerts** — every build posts success or AI-generated failure reports directly to Slack.
+- **Full observability** — Prometheus scrapes Jenkins + app metrics; Grafana visualizes cluster and pod health.
 
 ## 📷 Screenshots
 
@@ -113,4 +112,4 @@ Slack receives AI failure report
 ```
 
 ---
-**Author:** Chirag Parmar
+**Author:** Chirag
